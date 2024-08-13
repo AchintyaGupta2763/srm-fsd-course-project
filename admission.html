@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - SRM Institute of Science and Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- You may need to add additional CSS for the form styling -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logoSRM.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Admission Form</h1>
+        </div>
+    </section>
+
+    <section class="admission-form">
+        <h2>Apply for Admission</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Desired Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="msc">M.Sc</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Information:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="hero-btn red-btn">Submit Application</button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>EXCEL YOUR CAREER WITH US AND LEAD IN YOUR LIFE</p>
+        <div class="icons">
+            <!-- Add your social media icons here -->
+        </div>
+        <p>Made with By <a href="#">GROUP 8</a></p>
+    </section>
+</body>
+</html>
