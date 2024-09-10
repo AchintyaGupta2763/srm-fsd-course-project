@@ -1,0 +1,46 @@
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.banner {
+  height: 30vh;
+  background-image: url(../../assets/b4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+.download-container {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.download-container li {
+  margin: 10px 0;
+}
+
+.download-container a {
+  display: inline-block;
+  background-color: #088178;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.download-container a:hover {
+  background-color: #00645c;
+}
